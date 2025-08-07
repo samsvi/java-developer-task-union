@@ -1,3 +1,20 @@
-# Interview uloha pre Java Developer
+# Interview úloha pre Java Developer
+  
+Dostali ste starší kód aplikácie zdravotnej poisťovne pre správu poskytovateľov zdravotnej starostlivosti a ich zmlúv. Aplikácia je funkčná, ale má vážne architektonické problémy a vyvíjala sa bez dôsledného dodržiavania princípov čistého kódu a osvedčených vývojových praktík. Vašou úlohou je:
+- porozumieť logike, ktorá je v kóde
+- identifikovať jednotlivé *"antipatterns"* 
+- refaktorovať kód podľa moderných best practices.
 
-Dostali ste starší kód aplikácie zdravotnej poisťovne pre správu poskytovateľov zdravotnej starostlivosti a ich zmlúv. Aplikácia je funkčná, ale má vážne architektonické problémy a problémy s čistotou kódu. Vašou úlohou je kódu porozumieť a refaktorovať kód podľa moderných Java/Spring Boot best practices.
+Váš zdrojový kód publikujte na verejne dostupnom GIT repozitári (napr. GitHub)
+
+## Prerekvizita
+```
+Java 17+
+Maven 3
+```
+
+## Build and run
+```
+mvn clean install
+mvn spring-boot:run
+```
