@@ -8,8 +8,6 @@ import org.mapstruct.Mapping;
 @Mapper(componentModel = "spring")
 public interface ContractMapper {
 
-    Contract toEntity(Contract contract);
-
     @Mapping(source = "provider.name", target = "providerName")
     @Mapping(source = "provider.ico", target = "providerIco")
     @Mapping(source = "service.name", target = "serviceName")

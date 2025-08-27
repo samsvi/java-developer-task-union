@@ -13,8 +13,8 @@ import java.util.List;
 @ControllerAdvice
 public class GlobalExceptionHandler {
 
-    @ExceptionHandler(ContractNotFoundException.class)
-    public ResponseEntity<ApiErrorDto> handle(ContractNotFoundException e, HttpServletRequest request) {
+    @ExceptionHandler(ResourceNotFoundException.class)
+    public ResponseEntity<ApiErrorDto> handle(ResourceNotFoundException e, HttpServletRequest request) {
         ApiErrorDto error = new ApiErrorDto(
                 request.getRequestURI(),
                 e.getMessage(),

@@ -43,6 +43,14 @@ public class Contract {
         this.status = status;
     }
 
+    public Contract(Provider provider, Service service, Integer quantity, BigDecimal totalPrice, Status status) {
+        this.provider = provider;
+        this.service = service;
+        this.quantity = quantity;
+        this.totalPrice = totalPrice;
+        this.status = status;
+    }
+
     public Long getId() {
         return id;
     }
